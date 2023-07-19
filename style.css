@@ -1,5 +1,7 @@
 body{
-    background-color: #1f2937;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    
 }
 
 
@@ -9,6 +11,7 @@ body{
     width: auto;
     justify-content: center;
     align-items: center;
+    background-color: #1f2937;
     
     
 }
@@ -28,23 +31,140 @@ a{
     
 }
 
-.content{
+
+h1{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+
+
+.content{ 
     display: flex;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
     color: white;
+    padding: 90px;
+    background-color: #1f2937;
+}
+
+.content-text{
+    display: flex;
+    flex-basis: 400px;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 80px;
+
 
 }
 
-.content-text2{
+
+
+.broom-guy{
+    width: 400px;
+}
+
+
+.shop{
+    height: 30px;
+    width: 100px;
+    background-color: blue;
+    color: white;
+}
+
+h2{
+    background-color: white;
+    font-size: 32px;
+    text-align: center;
+}
+
+.img{
+    width: 200px;
+    height: 200px;
+    border: 4px solid #3882F6;
     
 }
 
-.broom-guy{
-   width: 250px;
-   
+
+.examples{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 100px;
+    
 
 }
-.shop{
-    width: 100px;
-    align-self: flex-end;
+
+.excontainer{
+    text-align: center;
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.testimonial{
+    background-color: #e5e7eb;
+    padding: 50px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    
+
+}
+
+.Gucci{
+    text-align: right;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight: bold;
+    padding-right: 250px;
+}
+
+.help{
+    background-color: #3882F6;
+    font-size: 20px;
+    margin: 50px 200px;
+    padding: 10px 88px;
+    display: flex;
+    align-items: center;
+    color: white;
+   
+}
+ .help-text{
+    text-align: left;
+    flex: 1;
+
+ }
+
+ h3{
+    margin: 30px 0px 0px 50px;
+    padding: 0;
+ }
+
+
+ .shop-text{
+    padding-bottom: 15px;
+ }
+
+ .shop2{
+    flex: 1;
+    background-color: #3882F6;
+    border-color: #fff;
+    border-radius: 8px;
+    background-color: #3882F6;
+    padding: 5px 25px;
+    font-size: 15px;
+    color: white;
+    flex: 1;
+}
+
+ .footer{
+        background-color: #1F2937;
+        color: #fff;
+        font-family: 'Roboto', arial;
+        font-size: 20px;
+        padding: 24px;
+ }
