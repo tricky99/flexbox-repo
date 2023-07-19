@@ -1,0 +1,50 @@
+body{
+    background-color: #1f2937;
+}
+
+
+.heading{
+    display: flex;
+    height: 40px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.heading-logo{
+    font-size: 24px;
+    color: white;
+    margin-right: 1250px;
+
+}
+
+a{
+    color: grey;
+    margin-left: 40px;
+    
+    
+    
+}
+
+.content{
+    display: flex;
+    align-items: flex-start;
+    color: white;
+
+}
+
+.content-text2{
+    
+}
+
+.broom-guy{
+   width: 250px;
+   
+
+}
+.shop{
+    width: 100px;
+    align-self: flex-end;
+}
