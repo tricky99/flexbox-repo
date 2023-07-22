@@ -27,8 +27,6 @@ a{
     color: grey;
     margin-left: 40px;
     
-    
-    
 }
 
 
@@ -40,12 +38,13 @@ h1{
 
 
 .content{ 
-    display: flex;
-    align-items: center;
-    justify-content: center;
     color: white;
     padding: 90px;
     background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .content-text{
@@ -150,7 +149,6 @@ h2{
  }
 
  .shop2{
-    flex: 1;
     background-color: #3882F6;
     border-color: #fff;
     border-radius: 8px;
